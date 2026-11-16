@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sebbe Van Leemput | IT Student Portfolio</title>
+  <meta name="description" content="Portfolio website of Sebbe Van Leemput, an IT student focused on web development, automation, and cloud fundamentals." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-shape bg-shape-one"></div>
+  <div class="bg-shape bg-shape-two"></div>
+
+  <header class="site-header" id="top">
+    <a href="#top" class="brand">SVL</a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">Menu</button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact<main>
+    <section class="hero reveal">
+      <p class="eyebrow">IT Student Portfolio</p>
+      <h1>Security solutions with a human touch.</h1>
+      <p class="hero-text">
+        I am Sebbe Van Leemput, an IT student who enjoys turning ideas into useful web apps,
+        streamlining tasks with scripts, and learning modern development workflows.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-outline" href="#contact">Let’s Connect</a>
+      </div>
+    </section>
+
+    <section id="about" class="panel reveal">
+      <h2>About Me</h2>
+      <p>
+        I am currently studying Information Technology with a focus on software development.
+        I enjoy creating clean interfaces, solving technical problems, and collaborating in teams.
+        My goal is to grow into a full-stack developer role where I can contribute to products
+        that improve everyday workflows.
+      </p>
+    </section>
+
+    <section id="education" class="panel reveal">
+      <h2>Education</h2>
+      <div class="education-grid" aria-label="Education details">
+        <article class="education-item education-item-large">
+          <p class="education-period">2023 - Present</p>
+          <h3>BSc in Information Technology</h3>
+          <p class="education-school">Horizon University of Applied Sciences</p>
+          <p>
+            Relevant coursework includes software engineering, database systems, networking,
+            cloud computing, and web development. I actively participate in team projects and
+            technical workshops to strengthen practical development skills.
+          </p>
+        </article>
+
+        <article class="education-item education-item-large">
+          <p class="education-period">2021 - 2023</p>
+          <h3>Technical Pre-University Program</h3>
+          <p class="education-school">Stad College of Technology</p>
+          <p>
+            Focused on mathematics, computer science fundamentals, and project-based problem solving,
+            with capstone work centered around introductory web development.
+          </p>
+        </article>
+
+        <article class="education-item education-item-small">
+          <p class="education-period">2025</p>
+          <h3>Google IT Support Certificate</h3>
+          <p class="education-school">Coursera</p>
+        </article>
+
+        <article class="education-item education-item-small">
+          <p class="education-period">2024</p>
+          <h3>Scrum Fundamentals Certified</h3>
+          <p class="education-school">SCRUMstudy</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="panel reveal">
+      <h2>Job Experience</h2>
+      <div class="timeline" aria-label="Job experience timeline">
+        <article class="timeline-item">
+          <p class="timeline-date">Summer 2025</p>
+          <h3>IT Support Intern</h3>
+          <p class="timeline-company">BrightDesk Solutions</p>
+          <p>
+            Assisted with first-line support tickets, device setup, and basic network troubleshooting.
+            Improved response consistency by documenting common fixes and creating quick-reference guides
+            for recurring technical issues.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <p class="timeline-date">2024 - Present</p>
+          <h3>Student Web Developer (Part-Time)</h3>
+          <p class="timeline-company">Freelance / Student Projects</p>
+          <p>
+            Built and maintained small websites for student organizations, focusing on responsive design,
+            accessible interfaces, and straightforward content management.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <p class="timeline-date">2023 - 2024</p>
+          <h3>Junior Service Desk Assistant</h3>
+          <p class="timeline-company">Campus IT Center</p>
+          <p>
+            Supported students and staff with account, printer, and Wi-Fi issues, while escalating
+            advanced incidents and maintaining clear ticket notes for quicker handovers.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="panel reveal">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Campus Task Tracker</h3>
+          <p>A responsive task manager for students with deadline reminders and priority tags.</p>
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Local storage persistence</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h3>Helpdesk Ticket CLI</h3>
+          <p>A command-line utility to log, filter, and export support tickets for small teams.</p>
+          <ul>
+            <li>Python scripting</li>
+            <li>CSV reporting automation</li>
+          </ul>
+        </article>
+
+        <!-- Removed: Weather Dashboard (kept layout responsive for remaining projects) -->
+      </div>
+    </section>
+
+    <section id="skills" class="panel reveal">
+      <h2>Skills</h2>
+      <div class="skills-grid" aria-label="Skill categories">
+        <article class="skill-part">
+          <h3>Frontend Development</h3>
+          <p>I build responsive, accessible interfaces with attention to structure and usability.</p>
+          <ul>
+            <li>HTML5 semantic structure</li>
+            <li>CSS layouts and responsive design</li>
+            <li>JavaScript DOM interactions</li>
+          </ul>
+        </article>
+
+        <article class="skill-part">
+          <h3>Backend and Data</h3>
+          <p>I create practical logic and data workflows for student and personal projects.</p>
+          <ul>
+            <li>Python scripting and automation</li>
+            <li>SQL basics and querying</li>
+            <li>API consumption and error handling</li>
+          </ul>
+        </article>
+
+        <article class="skill-part">
+          <h3>Tools and Workflow</h3>
+          <p>I use version control and structured workflows to keep projects maintainable.</p>
+          <ul>
+            <li>Git branching and commits</li>
+            <li>GitHub collaboration basics</li>
+            <li>Command line productivity</li>
+          </ul>
+        </article>
+
+        <article class="skill-part">
+          <h3>IT Fundamentals</h3>
+          <p>I apply core IT knowledge to troubleshoot and communicate clearly in teams.</p>
+          <ul>
+            <li>Networking fundamentals</li>
+            <li>Structured problem solving</li>
+            <li>Technical documentation</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="resume" class="panel reveal">
+      <h2>Download CV</h2>
+      <p>Download my latest resume in PDF format.</p>
+      <a class="btn btn-primary" href="assets/Alex-Vermeer-CV.pdf" download>Download PDF</a>
+    </section>
+
+    <section id="contact" class="panel reveal">
+      <h2>Contact</h2>
+      <p>Interested in collaborating or discussing internships? Reach out below.</p>
+      <div class="contact-links">
+        <a class="btn btn-primary" href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+          LinkedIn
+        </a>
+        <a class="btn btn-primary" href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+          GitHub
+        </a>
+      </div>
+    </section>
+  </main></a>
+      <a class="lang-switch" href="index.html" aria-label="Switch language to Dutch">NL</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <p class="eyebrow">IT Student Portfolio</p>
+      <h1>Building practical digital solutions with code, curiosity, and consistency.</h1>
+      <p class="hero-text">
+        I am Sebbe Van Leemput, an IT student who enjoys turning ideas into useful web apps,
+        streamlining tasks with scripts, and learning modern development workflows.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-outline" href="#contact">Let’s Connect</a>
+      </div>
+    </section>
+
+    <section id="about" class="panel reveal">
+      <h2>About Me</h2>
+      <p>
+        I am currently studying Information Technology with a focus on software development.
+        I enjoy creating clean interfaces, solving technical problems, and collaborating in teams.
+        My goal is to grow into a full-stack developer role where I can contribute to products
+        that improve everyday workflows.
+      </p>
+    </section>
+
+    <section id="education" class="panel reveal">
+      <h2>Education</h2>
+      <div class="education-grid" aria-label="Education details">
+        <article class="education-item education-item-large">
+          <p class="education-period">2023 - Present</p>
+          <h3>BSc in Information Technology</h3>
+          <p class="education-school">Horizon University of Applied Sciences</p>
+          <p>
+            Relevant coursework includes software engineering, database systems, networking,
+            cloud computing, and web development. I actively participate in team projects and
+            technical workshops to strengthen practical development skills.
+          </p>
+        </article>
+
+        <article class="education-item education-item-large">
+          <p class="education-period">2021 - 2023</p>
+          <h3>Technical Pre-University Program</h3>
+          <p class="education-school">Stad College of Technology</p>
+          <p>
+            Focused on mathematics, computer science fundamentals, and project-based problem solving,
+            with capstone work centered around introductory web development.
+          </p>
+        </article>
+
+        <article class="education-item education-item-small">
+          <p class="education-period">2025</p>
+          <h3>Google IT Support Certificate</h3>
+          <p class="education-school">Coursera</p>
+        </article>
+
+        <article class="education-item education-item-small">
+          <p class="education-period">2024</p>
+          <h3>Scrum Fundamentals Certified</h3>
+          <p class="education-school">SCRUMstudy</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="panel reveal">
+      <h2>Job Experience</h2>
+      <div class="timeline" aria-label="Job experience timeline">
+        <article class="timeline-item">
+          <p class="timeline-date">Summer 2025</p>
+          <h3>IT Support Intern</h3>
+          <p class="timeline-company">BrightDesk Solutions</p>
+          <p>
+            Assisted with first-line support tickets, device setup, and basic network troubleshooting.
+            Improved response consistency by documenting common fixes and creating quick-reference guides
+            for recurring technical issues.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <p class="timeline-date">2024 - Present</p>
+          <h3>Student Web Developer (Part-Time)</h3>
+          <p class="timeline-company">Freelance / Student Projects</p>
+          <p>
+            Built and maintained small websites for student organizations, focusing on responsive design,
+            accessible interfaces, and straightforward content management.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <p class="timeline-date">2023 - 2024</p>
+          <h3>Junior Service Desk Assistant</h3>
+          <p class="timeline-company">Campus IT Center</p>
+          <p>
+            Supported students and staff with account, printer, and Wi-Fi issues, while escalating
+            advanced incidents and maintaining clear ticket notes for quicker handovers.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="panel reveal">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Campus Task Tracker</h3>
+          <p>A responsive task manager for students with deadline reminders and priority tags.</p>
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Local storage persistence</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h3>Helpdesk Ticket CLI</h3>
+          <p>A command-line utility to log, filter, and export support tickets for small teams.</p>
+          <ul>
+            <li>Python scripting</li>
+            <li>CSV reporting automation</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h3>Weather Dashboard</h3>
+          <p>An API-driven dashboard showing current conditions and a 5-day forecast by city.</p>
+          <ul>
+            <li>REST API integration</li>
+            <li>Async JavaScript and error handling</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="panel reveal">
+      <h2>Skills</h2>
+      <div class="skills-grid" aria-label="Skill categories">
+        <article class="skill-part">
+          <h3>Frontend Development</h3>
+          <p>I build responsive, accessible interfaces with attention to structure and usability.</p>
+          <ul>
+            <li>HTML5 semantic structure</li>
+            <li>CSS layouts and responsive design</li>
+            <li>JavaScript DOM interactions</li>
+          </ul>
+        </article>
+
+        <article class="skill-part">
+          <h3>Backend and Data</h3>
+          <p>I create practical logic and data workflows for student and personal projects.</p>
+          <ul>
+            <li>Python scripting and automation</li>
+            <li>SQL basics and querying</li>
+            <li>API consumption and error handling</li>
+          </ul>
+        </article>
+
+        <article class="skill-part">
+          <h3>Tools and Workflow</h3>
+          <p>I use version control and structured workflows to keep projects maintainable.</p>
+          <ul>
+            <li>Git branching and commits</li>
+            <li>GitHub collaboration basics</li>
+            <li>Command line productivity</li>
+          </ul>
+        </article>
+
+        <article class="skill-part">
+          <h3>IT Fundamentals</h3>
+          <p>I apply core IT knowledge to troubleshoot and communicate clearly in teams.</p>
+          <ul>
+            <li>Networking fundamentals</li>
+            <li>Structured problem solving</li>
+            <li>Technical documentation</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="resume" class="panel reveal">
+      <h2>Download CV</h2>
+      <p>Download my latest resume in PDF format.</p>
+      <a class="btn btn-primary" href="assets/Alex-Vermeer-CV.pdf" download>Download PDF</a>
+    </section>
+
+    <section id="contact" class="panel reveal">
+      <h2>Contact</h2>
+      <p>Interested in collaborating or discussing internships? Reach out below.</p>
+      <div class="contact-links">
+        <a class="contact-icon-link" href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a class="contact-icon-link" href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Sebbe Van Leemput. Built with intent and curiosity.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
